@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    display: flex;
+}
+
+img {
+    width: 400px;
+}
+
+#banner {
+    background-image: url(menu.jpg);
+    color: blue;
+    height: 200px;
+}
+
+#left-panel {
+    background-color: rgb(255, 218, 65);
+    text-align: center;
+    width: 40%;
+    height: 400px;
+
+}
+
+#center-panel {
+    background-color: rgb(255, 226, 100);
+    text-align: center;
+    width: 30%;
+    height: 400px;
+}
+
+#right-panel {
+    background-color: rgb(255, 233, 143);
+    text-align: center;
+    width: 30%;
+    height: 400px;
+}
+
+#footer {
+    background-color: rgb(255, 218, 65);
+    color: blue;
+}
+
+a {
+    color: green;
+}
+
+p {
+    font-size: 130%;
+}
